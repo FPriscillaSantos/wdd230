@@ -2,7 +2,6 @@
     header {
         background-color: #000000;
         color: #ffffff;
-        width: 100%;
         text-align: left;
     }
 
@@ -11,7 +10,7 @@
     }
 
     footer {
-        width: 100%;
+        
         text-align: left;
     }
 }
