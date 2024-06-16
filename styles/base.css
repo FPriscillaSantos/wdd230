@@ -1,16 +1,31 @@
+head, body {
+    justify-content: center;
+}
+
 header, main, body, footer {
-    max-width: 640px;
+    max-width: 499px;
 }
 
 header {
     align-items: center;
     background-color: #8963a8;
-    display: flex;
-    padding: 20px;
+    display: grid;
+    padding: .5rem;
+}
+
+header image {
+    grid-column: 1;
+}
+
+header h1 {
+    grid-column: 2;
+    color: #fff;
+    text-decoration: none;
 }
 
 nav {
-    background-color: #8963a8;
+    background-color: #dcb9f8;
+    text-align: center;
 }
 
 nav ul{
@@ -21,7 +36,6 @@ nav a {
     display: block;
     color: #fff;
     text-align: center;
-    padding: .5rem;
     text-decoration: none;
 }
 
@@ -31,6 +45,10 @@ nav a:hover {
 
 nav .active {
     background-color: rgba(0, 0, 0, .3);
+}
+
+nav .inactive:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .learning-activities , .information{
@@ -45,11 +63,21 @@ text-align: center;
 }
 
 h1 {
-    text-decoration: underline;
     text-align: center;
 }
+
 h2 {
     background-color: #8963a8;
     color: white ;
+    text-align: center;
+}
+
+footer {
+    background-color: #8963a8;
+    padding: .5rem;
+}
+
+footer p {
+    color: #fff;
     text-align: center;
 }

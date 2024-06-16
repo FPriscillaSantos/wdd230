@@ -1,16 +1,48 @@
 @media screen and (min-width: 500px) {
     header {
-        background-color: #000000;
-        color: #ffffff;
-        text-align: left;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex; 
+    }
+    
+    nav li {
+        flex: 1; 
+        text-align: center; 
+    }
+    
+    nav a {
+        display: block;
+        padding: .5rem;
+        text-decoration: none;
+        color: #fff;
+        text-align: justify;
     }
 
     main {
-        grid-template-columns: 1fr 1fr;
+        display: grid;
     }
 
-    footer {
-        
-        text-align: left;
+    main h1{
+        grid-row: 1;
     }
+
+    main section {
+        grid-row: 2;
+        padding: 0;
+    }
+
+    .learning-activities {
+        grid-column: 1;
+    }
+
+    .information {
+        grid-column: 2;
+    }
+
+
 }
