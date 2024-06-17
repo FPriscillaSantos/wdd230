@@ -4,6 +4,7 @@ head, body {
 
 header, main, body, footer {
     max-width: 499px;
+    margin: 0 auto;
 }
 
 header {
