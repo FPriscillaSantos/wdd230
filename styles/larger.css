@@ -36,6 +36,11 @@
         padding: 0;
     }
 
+    main h1 {
+        font-size: 1.7rem;
+        grid-column: 1/3;
+    }
+
     .learning-activities {
         grid-column: 1;
     }
