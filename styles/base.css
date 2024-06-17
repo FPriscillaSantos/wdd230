@@ -52,6 +52,7 @@ nav .inactive:hover {
 }
 
 .learning-activities , .information{
+    margin: 4px;
     border: 1px solid #8963a8;
     border-radius: 8px;
     background-color: #ffffff;
@@ -59,8 +60,8 @@ nav .inactive:hover {
 }
 
 .information{
-text-align: center;
-}
+    text-align: center;
+    }
 
 h1 {
     text-align: center;
