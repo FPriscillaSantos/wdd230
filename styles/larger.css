@@ -49,5 +49,24 @@
         grid-column: 2;
     }
 
+    footer {
+        display: grid;
+    }
 
+    .footer1 {
+        grid-column: 1;
+    }
+
+    .footer2 {
+        grid-column: 2;
+    }
+
+    .footer3 {
+        grid-column: 3;
+    }
+
+    .lastModified {
+        grid-row: 2;
+        
+    }
 }
