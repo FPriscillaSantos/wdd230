@@ -9,7 +9,7 @@ header, main, body, footer {
 
 header {
     align-items: center;
-    background-color: #8963a8;
+    background-color: #362983;
     display: grid;
     padding: .5rem;
 }
@@ -25,7 +25,7 @@ header h1 {
 }
 
 nav {
-    background-color: #dcb9f8;
+    background-color: #99b0fc;
 }
 
 nav ul{
@@ -48,12 +48,12 @@ nav .active {
 }
 
 nav .inactive:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .learning-activities , .information{
     margin: 4px;
-    border: 1px solid #8963a8;
+    border: 1px solid #362983;
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -68,13 +68,13 @@ h1 {
 }
 
 h2 {
-    background-color: #8963a8;
+    background-color: #362983;
     color: white ;
     text-align: center;
 }
 
 footer {
-    background-color: #8963a8;
+    background-color: #362983;
     padding: .5rem;
 }
 
