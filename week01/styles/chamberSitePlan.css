@@ -1,0 +1,26 @@
+header, footer {
+    display: grid;
+    align-items: center;
+    background-color: #ffd54b;
+    display: grid;
+    padding: .5rem;
+}
+
+nav {
+    background-color: #011863;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-flex;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+h3{
+    color: #011863;
+}
