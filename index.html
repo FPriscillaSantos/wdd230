@@ -48,15 +48,18 @@
 
     </main>
     <footer>
-        <p>&copy; <span id="currentdate"></span></p>
+        <p class="footer1">&copy; <span id="year"></span> </p>
         <p class="footer2">F Priscilla Santos</p>
         <p class="footer3">Brazil &#x1F1E7;&#x1F1F7;</p>
-        <p id="lastModified">aqui</p>
+        <p class ="footer4">Last Modification: <span id="currentdate"></span></p>
     </footer>
 
     <script>
-        const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+        const options = {day: 'numeric', month: 'numeric', year: 'numeric'};
         document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+        
+        const year = {year: 'numeric'};
+        document.getElementById('year').textContent = new Date().toLocaleDateString('en-US', year);
 
     </script>
 
