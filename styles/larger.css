@@ -1,6 +1,14 @@
-/*@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
     header, footer {
         width: 100%;
+    }
+
+    #myButton {
+        display: none;
+    }
+
+    header, main, body, footer {
+        max-width: 499px;
     }
 
     nav ul {
