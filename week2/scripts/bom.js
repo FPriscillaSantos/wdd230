@@ -1,10 +1,16 @@
-const list = document.querySelector('#ul');
-const input = document.querySelector('input');
+const list = document.querySelector('#list');
+const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 
-button.addEventListener('click'), () => {
-    const myChapter = input.value;
+button.addEventListener('click', () => {
+    const myChapter = input.value.trim();
     input.value = '';
+    
+    if (myChapter === '') {
+        alert('Please enter a book and chapter.');
+        input.focus();
+        return;
+    }
 
     const listChapter = document.createElement('li');
     const listText = document.createElement('span');
@@ -18,7 +24,7 @@ button.addEventListener('click'), () => {
 
     listBtn.addEventListener('click', () => {
         list.removeChild(listChapter);
-    })
+    });
 
     input.focus();
-}
+});
