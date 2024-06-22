@@ -39,6 +39,14 @@ header image {
     grid-column: 1;
 }
 
+img[alt="brilho"] {
+    grid-column: 3;
+    grid-row: 1;
+    width: 40px;
+    align-self: flex-start;
+    justify-self:flex-end;
+}
+
 header h1 {
     grid-column: 2;
     color: #fff;
