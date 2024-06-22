@@ -1,8 +1,21 @@
+#myButton {
+    font-size: 1.5rem;
+    background: #000000;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    text-align: center;
+    color: #fff;
+    padding: .15rem ;
+    grid-column: 2;
+}
+
 head, body {
     justify-content: center;
 }
 
 header, main, body, footer {
+    max-width: 499px;
     margin: 0 auto;
 }
 
@@ -21,6 +34,14 @@ header h1 {
     grid-column: 2;
     color: #fff;
     text-decoration: none;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
 }
 
 nav {
