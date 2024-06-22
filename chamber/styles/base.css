@@ -3,7 +3,6 @@ header, footer {
     display: grid;
     align-items: center;
     background-color: #ffd54b;
-    display: grid;
 }
 
 body {
@@ -36,10 +35,10 @@ header h2 {
 nav {
     background-color: #011863;
     position: relative;
-    display: flex;
-    top: 23px;
+    top: 30px;
     width: 499px;
     margin: 0;
+    display: flex;
 }
 
 nav ul{
@@ -62,9 +61,47 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+#myButton {
+    font-size: 1rem;
+    background: #011863;
+    border: none;
+    cursor: pointer;
+    width: 44px;
+    text-align: center;
+    color: #ffffff;
+    padding: .5rem ;   
+}
+
+#myButton::before {
+    content: "\2630";
+}
+
+#myButton.open::before{
+    content: "x";
+}
+
+.menuLinks {
+    display: none;
+}
+
+.menuLinks.open {
+    display: block;
+    width: 483px;
+    position: absolute; 
+    top: 10px; 
+    align-content: space-between;
+    background-color: #011863;
+    padding: .5rem;
+    text-align: center;
+}
+
+.menuLinks.open li{
+    padding: .5rem;
+}
+
 h3{
     color: #012b63;
-    padding: .5rem;
+    padding-top: 1rem;
 }
 
 footer {
