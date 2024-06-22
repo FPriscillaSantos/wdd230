@@ -20,24 +20,24 @@ img[alt="Ribeirao Preto"] {
 header h1, header h2 {
     position: relative;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    justify-self: center;
 }
 
 header h1 {
-    top: 18px;
-    left: 45px;
+    top: 60px;
+    font-family: 'lora';
 }
 
 header h2 {
-    top: 5px;
-    left: 20px;
+    top: 25px;
 }
 
 nav {
     background-color: #011863;
     position: relative;
     display: flex;
-    top: 8px;
+    top: 23px;
     width: 499px;
     margin: 0;
 }
