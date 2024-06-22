@@ -2,7 +2,7 @@
 header, footer {
     display: grid;
     align-items: center;
-    background-color: #ffd54b;
+    background-color: #ffc40063;
 }
 
 body {
@@ -117,12 +117,34 @@ nav a:hover {
     cursor: pointer;
 }
 
-h3{
+.purpose {
+    margin-top: 50px;
+}
+
+section{
+    background-color: #ffc40063;
+    margin-top: .5rem;
+    border-radius: 10px;
+    }
+
+h3 {
     color: #012b63;
-    padding-top: 1rem;
+    padding: 0.5rem;
+}
+
+h4, .events p {
+    padding: 0.5rem;
+}
+
+.knowmore {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #011863;
 }
 
 footer {
     justify-items: center;
     padding: 1rem;
+    padding-top: 2rem;
 }
