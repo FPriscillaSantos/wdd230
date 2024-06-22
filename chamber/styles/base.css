@@ -47,6 +47,10 @@ nav ul{
     display: flex;
 }
 
+nav li {
+    margin-right: 10px;
+}
+
 nav a {
     color: #fff;
     text-align: center;
@@ -54,8 +58,13 @@ nav a {
     padding: 0.5rem;
 }
 
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 h3{
     color: #012b63;
+    padding: .5rem;
 }
 
 footer {
