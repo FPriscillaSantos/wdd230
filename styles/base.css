@@ -10,6 +10,14 @@
     grid-column: 2;
 }
 
+#myButton::before {
+    content: "\2630";
+}
+
+#myButton.open::before{
+    content: "x";
+}
+
 head, body {
     justify-content: center;
 }
