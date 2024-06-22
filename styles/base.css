@@ -35,6 +35,22 @@ header {
     padding: .5rem;
 }
 
+#joinButton {
+    padding: 10px 20px;
+    background-color: #9c2e15;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#joinButton:hover {
+    background-color: #e64a19;
+}
+
 header image {
     grid-column: 1;
 }

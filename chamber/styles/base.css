@@ -99,6 +99,24 @@ nav a:hover {
     padding: .5rem;
 }
 
+.joinButtonContainer {
+    position: relative;
+    top:20px;
+    left: 335px;
+}
+
+.joinButton {
+    padding: 10px 20px;
+    background-color: #011863;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
 h3{
     color: #012b63;
     padding-top: 1rem;
