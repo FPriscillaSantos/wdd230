@@ -57,3 +57,8 @@ nav a {
 h3{
     color: #012b63;
 }
+
+footer {
+    justify-items: center;
+    padding: 1rem;
+}
