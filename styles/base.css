@@ -6,7 +6,7 @@
     width: 8%;
     text-align: center;
     color: #fff;
-    padding: .5rem  .5rem 0rem .5rem 2vw ;
+    padding: .5rem ;
     grid-column: 2;
 }
 
@@ -60,7 +60,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    padding: .4rem 2vw;
+    padding: .5rem;
 }
 
 nav a:hover {
