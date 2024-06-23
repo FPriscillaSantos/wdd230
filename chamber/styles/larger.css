@@ -1,4 +1,4 @@
-/*
+@media screen and (min-width: 500px) {
 nav {
     background-color: #011863;
     position: relative;
@@ -27,4 +27,5 @@ nav a {
 
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
 }

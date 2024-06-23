@@ -1,18 +1,20 @@
 
+
 header, footer {
     display: grid;
     align-items: center;
     background-color: #011863;
+    font-family: 'Roboto';
 }
 
 body {
-    width: 499px;
+    max-width: 499px;
     margin: 0 auto;
     background-color: #ffd755de;
 }
 
 img[alt="Ribeirao Preto"] {
-    width: 499px;
+    max-width: 499px;
     justify-self: center;
     position: absolute;
 }
@@ -37,7 +39,7 @@ nav {
     background-color: #011863;
     position: relative;
     top: 30px;
-    width: 499px;
+    max-width: 499px;
     margin: 0;
     display: flex;
 }
@@ -91,7 +93,7 @@ nav a:hover {
 
 .menuLinks.open {
     display: block;
-    width: 483px;
+    max-width: 483px;
     position: absolute; 
     top: 10px; 
     align-content: space-between;
@@ -106,8 +108,8 @@ nav a:hover {
 
 .joinButtonContainer {
     position: relative;
-    top:20px;
-    left: 335px;
+    justify-self: center;
+    top: 20px
 }
 
 .joinButton {
@@ -135,6 +137,7 @@ section{
 h3 {
     color: #012b63;
     padding: 0.5rem;
+    font-family: 'Roboto';
 }
 
 h4, .events p {
@@ -226,3 +229,4 @@ footer img {
 .footer3 {
     grid-column: 2/4;
 }
+
