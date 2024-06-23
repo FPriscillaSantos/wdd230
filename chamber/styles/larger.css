@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
 nav {
     background-color: #011863;
     position: relative;
@@ -28,4 +28,36 @@ nav a {
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
+}
+
+
+footer {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    
+    color: #fff;
+}
+
+footer img, .footer1{
+    grid-row: 1;
+}
+
+footer img {
+    justify-items: right;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.footer1 {
+    grid-column: 1/4;
+    padding-left: 2rem;
+}
+
+.footer2, .footer3, .footer4 {
+    grid-row: 2;
+}
+
+.footer3 {
+    grid-column: 2/4;
 }
