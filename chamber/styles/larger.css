@@ -66,10 +66,6 @@ nav {
     max-width: 900px;
 }
 
-nav li {
-    justify-items: space-between;
-}
-
 nav a {
     color: #fff;
     text-align: center;
