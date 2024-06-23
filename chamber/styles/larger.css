@@ -1,4 +1,48 @@
-/*@media screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
+
+header, footer {
+    width: 100%;
+}
+
+#myButton {
+    display: none;
+}
+
+img[alt="Ribeirao Preto"] {
+    justify-self: right;
+}
+
+header, main, body, footer {
+    max-width: 900px;
+}
+
+header {
+    height: 246px;
+}
+
+header h1 {
+    top: 25px;
+    justify-self: left;
+    font-family: 'lora';
+    padding-left: 5rem;
+}
+
+header h2 {
+    top: 5px;
+    justify-self: left;
+    padding-left: 4rem;
+}
+
+.joinButtonContainer {
+    justify-self: left;
+    padding-left: 7rem;
+}
+
+.joinButton {
+    background-color: #fff;
+    color: #011863;
+}
+
 nav {
     background-color: #011863;
     position: relative;
@@ -28,8 +72,6 @@ nav a {
 nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
-}
-
 
 footer {
     display: grid;
@@ -58,6 +100,17 @@ footer img {
     grid-row: 2;
 }
 
+.footer2 {
+    grid-column: 1;
+}
+
 .footer3 {
-    grid-column: 2/4;
+    grid-column: 2/3;
+    padding-left: 6rem;
+}
+
+.footer4 {
+    grid-column: 4;
+}
+
 }
