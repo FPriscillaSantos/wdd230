@@ -43,23 +43,31 @@ header h2 {
     color: #011863;
 }
 
-nav {
-    background-color: #011863;
-    position: relative;
+.menuLinks {
     display: flex;
-    top: 23px;
-    width: 499px;
-    margin: 0;
-    
 }
 
-nav ul{
+.menuLinks nav {
+    background-color: #011863;
+    position: relative;
+    top: 23px;
+    width: 499px;   
+}
+
+.menuLinks li{
     list-style-type: none;
+    margin-right: 4rem;
     display: flex;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+
+nav {
+    max-width: 900px;
 }
 
 nav li {
-    margin-right: 10px;
+    justify-items: space-between;
 }
 
 nav a {
@@ -73,22 +81,42 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.forLarger {
+    display: flex;
+}
+
+.events {
+    max-width: 650px;
+    margin-right: 1.5rem;
+}
+
+.weather{
+    height: 200px;
+    padding-right: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+
+.posts ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.posts li:hover {
+    background-color: #00000036; /* não esta funcionando*/
+}
+
 footer {
     display: grid;
     justify-items: center;
-    padding: 1rem;
-    
+    max-width: 868px;
     color: #fff;
 }
 
 footer img, .footer1{
     grid-row: 1;
-}
-
-footer img {
-    justify-items: right;
-    padding-right: 2rem;
-    padding-left: 2rem;
 }
 
 .footer1 {
@@ -112,5 +140,4 @@ footer img {
 .footer4 {
     grid-column: 4;
 }
-
 }
