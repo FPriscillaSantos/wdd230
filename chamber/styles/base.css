@@ -2,12 +2,13 @@
 header, footer {
     display: grid;
     align-items: center;
-    background-color: #ffc40063;
+    background-color: #011863;
 }
 
 body {
     width: 499px;
     margin: 0 auto;
+    background-color: #ffd755de;
 }
 
 img[alt="Ribeirao Preto"] {
@@ -122,7 +123,7 @@ nav a:hover {
 }
 
 section{
-    background-color: #ffc40063;
+    background-color: #fff;
     margin-top: .5rem;
     border-radius: 10px;
     }
@@ -147,4 +148,6 @@ footer {
     justify-items: center;
     padding: 1rem;
     padding-top: 2rem;
+    margin-top: 50px;
+    color: #fff;
 }
