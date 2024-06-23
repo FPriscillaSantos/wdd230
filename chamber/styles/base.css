@@ -81,6 +81,10 @@ nav a:hover {
     content: "x";
 }
 
+#myButton:hover {
+    background-color: rgba(255, 255, 255, 0.8);  /* não esta funcionando*/
+}
+
 .menuLinks {
     display: none;
 }
@@ -175,8 +179,7 @@ h4, .events p {
 .member li {
     list-style-type: none;
     padding: 2rem;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .posts a {
@@ -187,6 +190,11 @@ h4, .events p {
     border-radius: 10px;
     box-shadow: 0 0 10px #011863;
 }
+
+.post li:hover {
+        background-color: rgba(0, 0, 0, 0.8); /* não esta funcionando*/
+    }
+
 
 footer {
     display: grid;
