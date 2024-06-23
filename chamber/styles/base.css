@@ -134,7 +134,9 @@ h3 {
 }
 
 h4, .events p {
-    padding: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .knowmore {
@@ -146,6 +148,7 @@ h4, .events p {
 
 .weather {
     display: grid;
+    margin-top: 1.4rem;
 }
 
 .weather img {
@@ -162,9 +165,32 @@ h4, .events p {
 }
 
 footer {
+    display: grid;
     justify-items: center;
     padding: 1rem;
-    padding-top: 2rem;
     margin-top: 50px;
     color: #fff;
+}
+
+footer img, .footer1{
+    grid-row: 1;
+}
+
+footer img {
+    justify-items: right;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.footer1 {
+    grid-column: 1/4;
+    padding-left: 2rem;
+}
+
+.footer2, .footer3, .footer4 {
+    grid-row: 2;
+}
+
+.footer3 {
+    grid-column: 2/4;
 }
