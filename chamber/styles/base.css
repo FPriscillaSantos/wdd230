@@ -164,11 +164,35 @@ h4, .events p {
     align-self: center;
 }
 
+.member div {
+    background-color: #fff;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.member li {
+    list-style-type: none;
+    padding: 2rem;
+    text-decoration: none;
+    
+}
+
+.posts a {
+    color: black;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 10px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px #011863;
+}
+
 footer {
     display: grid;
     justify-items: center;
     padding: 1rem;
-    margin-top: 50px;
+    
     color: #fff;
 }
 
