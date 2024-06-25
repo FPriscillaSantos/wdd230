@@ -50,7 +50,6 @@ header h2 {
 .menuLinks nav {
     background-color: #011863;
     position: relative;
-    top: 23px;
     width: 499px;   
 }
 
@@ -68,7 +67,6 @@ nav {
 
 nav a {
     color: #fff;
-    text-align: center;
     text-decoration: none;
     padding: 0.5rem;
 }

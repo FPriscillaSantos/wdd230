@@ -102,6 +102,11 @@ nav a:hover {
     padding: .5rem;
 }
 
+nav .active {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
 .joinButtonContainer {
     position: relative;
     justify-self: center;
