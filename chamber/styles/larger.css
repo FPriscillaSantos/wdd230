@@ -73,10 +73,6 @@ nav a {
     padding: 0.5rem;
 }
 
-nav a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
 .forLarger {
     display: flex;
 }
@@ -98,10 +94,6 @@ nav a:hover {
     display: flex;
     justify-content: space-around;
     
-}
-
-.posts li:hover {
-    background-color: #00000036; /* não esta funcionando*/
 }
 
 footer {
