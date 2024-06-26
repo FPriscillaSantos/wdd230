@@ -1,0 +1,8 @@
+main{
+    display:grid;
+    justify-content: center;
+}
+
+main img {
+    padding: 1rem;
+}
