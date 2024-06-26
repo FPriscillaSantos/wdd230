@@ -1,8 +1,24 @@
-main{
-    display:grid;
-    justify-content: center;
+h1, p {
+    text-align: center;
+    max-width: 600px;
 }
 
-main img {
-    padding: 1rem;
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main picture {
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
