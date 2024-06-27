@@ -11,6 +11,10 @@
         max-width: 499px;
     }
 
+    .hero picture img {
+        max-width: 499;
+    }
+
     nav ul {
         list-style-type: none;
         padding: 0;
