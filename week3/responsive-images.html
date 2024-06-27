@@ -10,29 +10,17 @@
 </head>
 <body>
     <header>
-       <h1>Lazy Load Demonstration</h1>
+       <h1>Responsive Images</h1>
     </header>
     
     <main>
-        <picture>
-            <img src="images/11940cdfab1fca41f2ec87b263034c8d.jpg" alt="image 1" loading="lazy" width="600">
-        </picture>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero-small.webp">
+                <source media="(min-width: 1000px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="large">
+            </picture>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe dicta, natus omnis voluptatibus placeat quod adipisci at consequatur dolores ipsam unde quos quidem dolorem non totam nobis repudiandae nisi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime odio doloremque delectus fugit aperiam, adipisci enim tenetur minima rerum sequi voluptates nostrum necessitatibus quasi, soluta eum dignissimos asperiores, in quisquam.</p>
-        <picture>
-            <img src="images/588d3a27e2b911ec94adeeeeac1e0a0694f432a0.jpeg" alt="image 2" loading="lazy" width="600">
-        </picture>
-        <picture>
-            <img src="images/brasilia_brazil_temple_exterior.webp" alt="image 3" loading="lazy" width="600">
-        </picture>
-        <picture>
-            <img src="images/mormom-brasilia.webp" alt="image 4" loading="lazy" width="600">
-        </picture>
-        <picture>
-            <img src="images/templo-de-ribeirao-preto.jpg" alt="image 5" loading="lazy" width="600">
-        </picture>
-        <picture>
-            <img src="images/Templo-Fortaleza-EXT-4-WEB.png" alt="image 6" loading="lazy" width="600">
-        </picture>
     </main>
 
     <footer>
