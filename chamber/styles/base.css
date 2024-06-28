@@ -18,6 +18,18 @@ img[alt="Ribeirao Preto"] {
     position: absolute;
 }
 
+header {
+    position: relative;
+}
+
+#mode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    padding: 1rem;
+}
+
 header h1, header h2 {
     position: relative;
     color: #fff;
@@ -242,4 +254,5 @@ footer img {
     grid-row:  4;
     grid-column: 1/5;
 }
+
 
