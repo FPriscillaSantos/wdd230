@@ -183,6 +183,12 @@ h2 {
 .map {
     grid-column: 1/3;
     padding: .5rem;
+    max-width: 499px;
+}
+
+.map iframe {
+    width: 100%;
+    height: auto;
 }
 
 footer {
