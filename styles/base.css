@@ -66,14 +66,13 @@ main {
 
 .herolabel {
 	position: absolute;
-	top: 30px;
-	left: 30px;
-	background: radial-gradient(#fff, #362983);
-	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.5rem;
+	top: 0;
+	left: 0;
+    right: 0;
+	background: radial-gradient(#fff, #588ccfd3);
+	padding: .5rem;
 	box-shadow: 0 0 3rem #fff;
 	opacity: 0.75;
-	/* Buenas */
 }
 
 .herolabel p {
@@ -82,6 +81,7 @@ main {
 	font-weight: 700;
 	font-size: 1.5rem;
 	font-family:"Great Vibes", serif;
+    text-align: center;
 }
 
 #joinButton {
