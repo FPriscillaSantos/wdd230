@@ -212,3 +212,7 @@ footer p {
     background-color: black;
 }
 
+.dark-mode .herolabel p {
+    color: black;
+}
+
