@@ -165,7 +165,12 @@ nav .inactive:hover {
 
 .information{
     text-align: center;
-    }
+}
+
+.information p {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
 
 h1 {
     text-align: center;
@@ -179,6 +184,7 @@ h2 {
 
 .map {
     grid-column: 1/3;
+    padding: .5rem;
 }
 
 footer {
