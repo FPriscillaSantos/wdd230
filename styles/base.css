@@ -181,6 +181,10 @@ h2 {
     text-align: center;
 }
 
+.map {
+    grid-column: 1/3;
+}
+
 footer {
     background-color: #362983;
     padding: .5rem;
