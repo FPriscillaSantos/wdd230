@@ -49,7 +49,7 @@ header h2 {
 nav {
     background-color: #011863;
     position: relative;
-    top: 30px;
+    top: 50px;
     max-width:100%;
     display: flex; 
     
@@ -217,6 +217,20 @@ h4, .events p {
 .posts li:hover {
     background-color: #00000036; 
     cursor: pointer;
+}
+
+.sidebar p {
+    padding: .7rem;
+    text-align: justify;
+}
+
+.demography {
+    margin-top: 4rem ;
+}
+
+.pictures {
+    width: 100%;
+    height: auto;
 }
 
 footer {

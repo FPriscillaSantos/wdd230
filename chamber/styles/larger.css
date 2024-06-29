@@ -57,6 +57,11 @@ header h2 {
     padding-right: 2rem;
 }
 
+nav {
+    position: relative;
+    top: 30px;
+}
+
 .menuLinks nav {
     background-color: #011863;
     position: relative;   
@@ -90,6 +95,10 @@ header h2 {
     display: flex;
     justify-content: space-around;
     
+}
+
+.demography {
+    margin-top: 2.5rem ;
 }
 
 footer {
