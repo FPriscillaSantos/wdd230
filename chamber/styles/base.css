@@ -111,7 +111,6 @@ nav .active {
     max-width: 483px;
     position: absolute; 
     top: 18px; 
-    align-content: space-between;
     background-color: #011863;
     padding: .5rem;
     text-align: center;

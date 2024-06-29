@@ -43,26 +43,26 @@ header h2 {
     color: #011863;
 }
 
+
 .menuLinks {
     display: flex;
+    max-width: 856px;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0;
+    padding-right: 2rem;
 }
 
 .menuLinks nav {
     background-color: #011863;
-    position: relative;
-    width: 499px;   
+    position: relative;   
 }
 
 .menuLinks li{
     list-style-type: none;
-    margin-right: 4rem;
-    display: flex;
-    justify-content: space-around;
+    padding: .5rem;
     padding-left: 2rem;
-}
-
-nav {
-    max-width: 900px;
+    padding-right: 2rem;
 }
 
 .forLarger {
