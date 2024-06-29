@@ -228,9 +228,27 @@ h4, .events p {
     margin-top: 4rem ;
 }
 
+.calendar {
+    margin-bottom: 1rem;
+}
+
 .pictures {
     width: 100%;
+    max-width: 499px;
+    margin: 0 auto; 
+    display: block;
+    
+}
+
+.pictures picture {
+    flex: 1 0 auto; 
+    margin-bottom: .5rem; 
+}
+
+.pictures img {
+    width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 footer {
