@@ -50,7 +50,7 @@ header h2 {
 nav {
     background-color: #011863;
     position: relative;
-    top: 37px;
+    top: 35px;
     max-width:100%;
     display: flex; 
     
@@ -219,13 +219,21 @@ h4, .events p {
     cursor: pointer;
 }
 
+.welcome p {
+    background-color: #fff;
+    margin-top: .5rem;
+    border-radius: 10px;
+    margin-top: 3rem ;
+    
+}
+
 .sidebar p {
     padding: .7rem;
     text-align: justify;
 }
 
 .demography {
-    margin-top: 4rem ;
+    margin-top: 1rem ;
 }
 
 .calendar {
