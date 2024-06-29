@@ -132,6 +132,11 @@ main {
     margin-bottom: .6rem;
 }
 
+.pictures img:hover {
+    transform: scale(0.97); 
+    filter: brightness(70%); 
+}
+
 footer {
     display: grid;
     justify-items: center;
