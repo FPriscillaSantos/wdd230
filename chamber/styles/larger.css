@@ -8,8 +8,11 @@ header, footer {
     display: none;
 }
 
-img[alt="Ribeirao Preto"] {
-    justify-self: right;
+
+.heroPic {
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
 }
 
 header, main, body, footer {
@@ -18,24 +21,25 @@ header, main, body, footer {
 
 header {
     height: 246px;
+    position: relative;
 }
 
 header h1 {
     top: 25px;
-    justify-self: left;
+    justify-self: right;
     font-family: 'lora';
-    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 header h2 {
     top: 5px;
-    justify-self: left;
-    padding-left: 4rem;
+    justify-self: right;
+    padding-right: 4rem;
 }
 
 .joinButtonContainer {
-    justify-self: left;
-    padding-left: 7rem;
+    justify-self: right;
+    padding-right: 7rem;
 }
 
 .joinButton {

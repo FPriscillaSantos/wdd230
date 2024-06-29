@@ -12,7 +12,7 @@ body {
     background-color: #ffd755de;
 }
 
-img[alt="Ribeirao Preto"] {
+.heroPic {
     max-width: 499px;
     justify-self: center;
     position: absolute;
