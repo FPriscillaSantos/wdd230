@@ -232,6 +232,16 @@ h4, .events p {
     margin-bottom: 1rem;
 }
 
+.calendar {
+    text-align: center; 
+}
+
+.calendar iframe {
+    display: block; 
+    margin: 0 auto; 
+    padding-bottom: 1rem;
+}
+
 .pictures {
     width: 100%;
     max-width: 499px;
