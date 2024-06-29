@@ -52,7 +52,7 @@ nav {
     top: 30px;
     max-width:100%;
     display: flex; 
-    padding: 1rem;
+    
 }
 
 nav ul{
@@ -110,7 +110,7 @@ nav .active {
     display: block;
     max-width: 483px;
     position: absolute; 
-    top: 35px; 
+    top: 18px; 
     align-content: space-between;
     background-color: #011863;
     padding: .5rem;
