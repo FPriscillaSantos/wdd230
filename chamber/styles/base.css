@@ -51,29 +51,21 @@ nav {
     position: relative;
     top: 30px;
     max-width:100%;
-    margin: 0;
-    display: flex;
-    justify-content: center; 
+    display: flex; 
     padding: 1rem;
-    
 }
 
 nav ul{
     list-style-type: none;
-    margin: 0;
-     border: solid 2px rgb(25, 146, 21);
-}
-
-nav li {
-    border: solid 2px rgb(25, 146, 21);
-    
-    
 }
 
 nav li a {
     color: #fff;
     text-decoration: none;
-    padding-right: 2rem;
+}
+
+nav li a:hover {
+    background-color: #ffffff00; 
 }
 
 nav ul :hover {
@@ -94,7 +86,8 @@ nav .active {
     width: 44px;
     text-align: center;
     color: #ffffff;
-    padding: .5rem ;   
+    padding: .5rem ;  
+
 }
 
 #myButton::before {
@@ -117,7 +110,7 @@ nav .active {
     display: block;
     max-width: 483px;
     position: absolute; 
-    top: 10px; 
+    top: 35px; 
     align-content: space-between;
     background-color: #011863;
     padding: .5rem;
@@ -224,6 +217,7 @@ h4, .events p {
 
 .posts li:hover {
     background-color: #00000036; 
+    cursor: pointer;
 }
 
 footer {
