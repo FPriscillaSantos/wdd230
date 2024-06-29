@@ -50,26 +50,40 @@ nav {
     background-color: #011863;
     position: relative;
     top: 30px;
-    max-width: 499px;
+    max-width:100%;
     margin: 0;
     display: flex;
+    justify-content: center; 
+    padding: 1rem;
+    
 }
 
 nav ul{
     list-style-type: none;
-    display: flex;
+    margin: 0;
+     border: solid 2px rgb(25, 146, 21);
 }
 
+nav li {
+    border: solid 2px rgb(25, 146, 21);
+    
+    
+}
 
-nav a {
+nav li a {
     color: #fff;
-    text-align: center;
     text-decoration: none;
-    padding: .5rem;
+    padding-right: 2rem;
 }
 
-nav a:hover {
+nav ul :hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+nav .active {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
 }
 
 #myButton {
@@ -112,11 +126,6 @@ nav a:hover {
 
 .menuLinks.open li{
     padding: .5rem;
-}
-
-nav .active {
-    background-color: rgba(0, 0, 0, .3);
-    color: #fff;
 }
 
 .joinButtonContainer {

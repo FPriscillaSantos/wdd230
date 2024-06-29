@@ -65,12 +65,6 @@ nav {
     max-width: 900px;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem;
-}
-
 .forLarger {
     display: flex;
 }
