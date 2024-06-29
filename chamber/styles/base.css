@@ -39,18 +39,18 @@ header h1, header h2 {
 }
 
 header h1 {
-    top: 60px;
+    top: 30px;
     font-family: 'lora';
 }
 
 header h2 {
-    top: 25px;
+    top: 10px;
 }
 
 nav {
     background-color: #011863;
     position: relative;
-    top: 35px;
+    top: 37px;
     max-width:100%;
     display: flex; 
     
