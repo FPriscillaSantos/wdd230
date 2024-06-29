@@ -97,8 +97,35 @@ nav {
     
 }
 
+main {
+    display: grid;
+}
+
+.sidebar {
+    grid-column: 1;
+    max-width: 350px;
+}
+
+.attractions p, h4 {
+    margin: 1px;
+    padding-bottom: 1px;
+    padding-left: 0,7rem;
+    padding-right: 0,7rem;
+}
+
+.attractions p {
+    padding-bottom: 2rem;
+}
+
 .demography {
     margin-top: 2.5rem ;
+}
+
+.pictures {
+    grid-column: 2;
+    margin-right: 0 auto;
+    padding: 2.7rem;
+    padding-right: 0;
 }
 
 footer {
