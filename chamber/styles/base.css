@@ -50,7 +50,7 @@ header h2 {
 nav {
     background-color: #011863;
     position: relative;
-    top: 35px;
+    top: 30px;
     max-width:100%;
     display: flex; 
 }
