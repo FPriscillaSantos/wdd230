@@ -44,4 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Atualizar o localStorage com a data da visita atual
     localStorage.setItem('lastVisit', new Date().toISOString());
+
+    // Definir o timestamp atual no campo oculto
+    document.getElementById('timestamp').value = new Date().toISOString();
+
 });

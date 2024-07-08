@@ -51,7 +51,89 @@
     </header>
 
     <main>
-        
+        <form method="get" action="thankyou.html" class="join">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First Name*<input type="text" name="fname" id="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label>Title or Position<input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" title="Only letters, hyphens, and spaces. Minimum 7 characters."></label>
+                <label>Email*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone*<input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+                <label>Organization's Name*<input type="text" name="orgName" id="orgName" required></label>
+                <label>Organization's Description<input type="text" name="orgDescr" id="orgDescr"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Select a membership level:</div>
+                <label><input type="radio" name="membership" value="gold" required>Gold Membership</label>
+                <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label><input type="radio" name="membership" value="np">NP Membership*</label>
+                <div class="smalletters">*NP Membership is for non profit organizations and there is no fee</div>
+            </fieldset>
+
+            <div class="membershipOp">
+                <figure>
+                    <img src="https://fpriscillasantos.github.io/wdd230/chamber/images/1.webp" loading="lazy" width="400" height="200" alt="Gold Membership">
+                    <figcaption class="image-caption">
+                        <strong>Gold Membership - $1,000/year</strong>
+                        <ul>
+                            <li>Exclusive access to VIP events</li>
+                            <li>Significant discounts on all Chamber of Commerce events</li>
+                            <li>Priority advertising on the Chamber's website and newsletters</li>
+                            <li>Networking opportunities with industry leaders</li>
+                            <li>Free business consulting (up to 5 hours per month)</li>
+                            <li>Highlighted listing in the member directory</li>
+                            <li>Priority participation in trade shows and exhibitions</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://fpriscillasantos.github.io/wdd230/chamber/images/2.webp" loading="lazy" width="400" height="200" alt="Silver Membership">
+                    <figcaption class="image-caption">
+                        <strong>Silver Membership - $500/year</strong>
+                        <ul>
+                            <li>Discounts on Chamber of Commerce events</li>
+                            <li>Advertising on the Chamber's website and newsletters</li>
+                            <li>Networking opportunities</li>
+                            <li>Free business consulting (up to 2 hours per month)</li>
+                            <li>Participation in trade shows and exhibitions</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://fpriscillasantos.github.io/wdd230/chamber/images/3.webp" loading="lazy" width="400" height="200" alt="Bronze Membership">
+                    <figcaption class="image-caption">
+                        <strong>Bronze Membership - $250/year</strong>
+                        <ul>
+                            <li>Discounts on Chamber of Commerce events</li>
+                            <li>Advertising on the Chamber's website</li>
+                            <li>Networking opportunities</li>
+                            <li>Free business consulting (1 hour per month)</li>
+                            <li>Basic listing in the member directory</li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="https://fpriscillasantos.github.io/wdd230/chamber/images/4.webp" loading="lazy" width="400" height="200" alt="NP Membership">
+                    <figcaption class="image-caption">
+                        <strong>NP Membership</strong>
+                        <ul>
+                            <li>Access to Chamber of Commerce events (some free, others discounted)</li>
+                            <li>Advertising on the Chamber's website</li>
+                            <li>Networking opportunities</li>
+                        </ul>
+                        <div class="smalletters">*NP Membership is for non-profit organizations and there is no fee</div>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <input type="hidden" name="timestamp" id="timestamp"> <!-- timestamp -->
+
+            <input type="submit" value="Sign Up">
+
+        </form>
     </main>
 
     <footer>
