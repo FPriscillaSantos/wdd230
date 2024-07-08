@@ -51,7 +51,7 @@
                 <label>Email:<input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
             </fieldset>
             <fieldset>
-                <legend>Page Rating:</legend>
+                <label>Page Rating:</label>
                 <div id="rangevalue">0</div> <!-- Div para mostrar o valor do range -->
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues" oninput="updateRangeValue(this.value)"> <!-- Adicionada função oninput -->
                 <datalist id="rangevalues">
