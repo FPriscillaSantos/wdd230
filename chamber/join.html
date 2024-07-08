@@ -41,10 +41,10 @@
         <nav>
             <button id="myButton"></button>
             <ul class="menuLinks">
-                <li class="active"><a href="index.html">Home </a></li>
+                <li class="inactive"><a href="index.html">Home </a></li>
                 <li class="inactive"><a href="#">Education</a></li>
                 <li class="inactive"><a href="#">Events</a></li>
-                <li class="inactive"><a href="#">Contact</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
                 <li class="inactive"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
@@ -52,7 +52,7 @@
 
     <main>
         <form method="get" action="thankyou.html" class="join">
-            <fieldset>
+            <fieldset class="applicant">
                 <legend>Applicant Information</legend>
                 <label>First Name* <input type="text" name="fname" id="fname" required></label>
                 <label>Last Name* <input type="text" name="lname" id="lname" required></label>
@@ -63,9 +63,8 @@
                 <label>Organization's Description <input type="text" name="orgDescr" id="orgDescr"></label>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="member">
                 <legend>Membership</legend>
-                <div>Select a membership level:</div>
                 <label><input type="radio" name="membership" value="gold" required>Gold Membership</label>
                 <label><input type="radio" name="membership" value="silver">Silver Membership</label>
                 <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
