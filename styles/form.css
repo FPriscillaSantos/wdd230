@@ -1,42 +1,50 @@
+:root {
+    --primary-color: #362983;
+    --secondary-color: #15139cc7;
+    --box-shadow: 1px 1px 4px #999;
+
+    --padding-input: .75rem;
+    --max-width-element: 420px;
+}
+
 fieldset {
     display: block;
-    padding: 0.5rem;
+    padding: var(--padding-input);
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
 
 input {
     display: block;
-    padding: .75rem;
+    padding: var(--padding-input);
     border-radius: 6px;
     width: 100%;
-    max-width: 420px;
+    max-width: var(--max-width-element);
     appearance: none;
 }
 
 label {
     display: block;
-    padding: .5rem;
+    padding: var(--padding-input);
 }
 
 legend {
     display: block;
-    padding: 0.5rem;
+    padding: var(--padding-input);
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
 
-
 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(#362983, #15139cc7);
+    background-image: linear-gradient(var(--primary-color), var(--secondary-color));
     color: #fff;
     border-radius: 6px;
-    padding: .75rem;
+    padding: var(--padding-input);
     width: 60%;
-    max-width: 400px;
+    max-width: var(--max-width-element);
     margin: 1rem auto;
-    box-shadow: 1px 1px 4px #999;
+    box-shadow: var(--box-shadow);
 }
 
 #rangevalue {
@@ -46,19 +54,19 @@ input[type="submit"] {
 #rangevalues {
     display: flex;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: var(--max-width-element);
     width: 100%;
     margin-left: 1.5rem;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    max-width: 400px;
+    max-width: var(--max-width-element);
     width: 100%;
     margin: auto;
     cursor: pointer;
-    box-shadow: 1px 1px 1px #0000009d, 0px 0px 1px 0px #0d0d0dc0;
+    box-shadow: var(--box-shadow);
     background: #dde1e4;
-    border: solid .5px rgba(128, 128, 128, 0.274) ;
+    border: solid .5px rgba(128, 128, 128, 0.274);
     border-radius: 6px;
 }
 
