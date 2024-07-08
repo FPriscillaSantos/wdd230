@@ -315,6 +315,10 @@ footer img {
 
 /* Join */
 
+form {
+    padding-bottom: .5rem;
+}
+
 .thanks {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
@@ -353,5 +357,32 @@ fieldset {
 .member input[type="radio"]{
     margin-right: 6px;
 }
+
+.join input[type="submit"] {
+    padding: 10px 50px;
+    background-color: #011863;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
+    margin: 1rem auto; 
+    display: block; 
+}
+
+.membershipOp figure {
+    background-color: #fff;
+    margin: .3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.membershipOp li {
+    text-align: left;
+}
+
 
 
