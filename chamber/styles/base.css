@@ -147,6 +147,16 @@ nav .active {
     margin-top: 50px;
 }
 
+.thanks {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.thanks h2 {
+    text-align: center;
+}
+
 section{
     background-color: #fff;
     margin-top: .5rem;

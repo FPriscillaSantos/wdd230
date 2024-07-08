@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F Priscilla Santos - WDD 230 - Chamber of Commerce</title>
+    <meta name="description" content="F Priscilla Santos WDD 230 - Web Frontend Development - Chamber of Commerce">
+    <meta name="author" content="Fabiana Priscilla Santos">
+
+    <link rel ="stylesheet" href="styles/normalize.css">
+    <link rel ="stylesheet" href="styles/base.css">
+    <link rel ="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="http://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lora&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="F Priscilla Santos - WDD 230 - Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://fpriscillasantos.github.io/wdd230/chamber/images/normal-ribeirao-preto.webp">
+    <meta property="og:url" content="https://fpriscillasantos.github.io/wdd230/chamber">
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <!--<img class="heroPic" src="https://fpriscillasantos.github.io/wdd230/chamber/images/ribeirao-preto.webp" alt="Ribeirao Preto" width="499">-->
+        <picture>
+            <source class="heroPic" type="image/webP" srcset="https://fpriscillasantos.github.io/wdd230/chamber/images/small-ribeirao-preto.webp" media="(max-width: 500px)" >
+            <img class="heroPic" src="https://fpriscillasantos.github.io/wdd230/chamber/images/normal-ribeirao-preto.webp" loading="lazy" alt="hero image" width="499">
+        </picture>
+
+        <div class="joinButtonContainer">
+            <a href="#" class="joinButton">Join the Chamber</a>
+        </div>
+        <h1>Ribeirão Preto</h1>
+        <h2>Chamber Of Commerce</h2>
+        
+        <nav>
+            <button id="myButton"></button>
+            <ul class="menuLinks">
+                <li class="active"><a href="index.html">Home </a></li>
+                <li class="inactive"><a href="#">Education</a></li>
+                <li class="inactive"><a href="#">Events</a></li>
+                <li class="inactive"><a href="#">Contact</a></li>
+                <li class="inactive"><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        <img src="images/simbol.png" alt="simbol" width="100">
+        <p class="footer1">Ribeirão Preto Chamber of Commerce<br>Contact: +55 (16) 1234-5678<br>10 Rue De La Paix 99</p>
+        <p class="footer2">F Priscilla Santos <br> WDD 230 Project</p>
+        <p class ="footer3">Last Modification: <span id="lastModified"></span></p>
+        <p class ="footer4">&copy; <span id="year"> </span> Brazil &#x1F1E7;&#x1F1F7;</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
