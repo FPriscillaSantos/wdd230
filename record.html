@@ -42,34 +42,7 @@
     </nav>
 
     <main>
-        <form method="get" action="record.html" class="wf1">
-            <fieldset>
-                <legend>Login</legend>
-                <label>Username<input type="text" id="username" name="username" required></label>
-                <label>Password<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and can only be alpha-numeric"></label>
-                <label>Confirm Password<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Must match the first Password field input value."></label>
-                <label>Email<input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-           
-                <legend>Page Rating</legend>
-                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues" oninput="updateRangeValue(this.value)"> <!-- Adicionada função oninput -->
-                <datalist id="rangevalues">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </datalist>
-                <hr>
-
-                <input type="submit" value="Send Information">
-            </fieldset>
-        </form>
+    <h1>Thank you! We have received your information.</h1>
     </main>
 
     <footer>
