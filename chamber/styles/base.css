@@ -373,15 +373,35 @@ fieldset {
     display: block; 
 }
 
+.membershipOp {
+    margin-top: 2.2rem;
+}
+
 .membershipOp figure {
     background-color: #fff;
     margin: .3rem;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.membershipOp img {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+.membershipOp figcaption{
+    text-align: center;
 }
 
 .membershipOp li {
     text-align: left;
+    font-size: 0.9em;
 }
 
 

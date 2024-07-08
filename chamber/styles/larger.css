@@ -166,4 +166,27 @@ footer img, .footer1{
 .footer4 {
     grid-column: 4;
 }
+
+/*join*/
+
+main {
+    display: grid;
+}
+
+.join {
+    grid-column: 1;
+    max-width: 350px;
+}
+
+.membershipOp {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.membershipOp figure { 
+    width: 229px;
+    padding-top: 1.5rem;
+}
+
 }
