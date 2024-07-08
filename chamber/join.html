@@ -54,13 +54,13 @@
         <form method="get" action="thankyou.html" class="join">
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label>First Name*<input type="text" name="fname" id="fname" required></label>
-                <label>Last Name*<input type="text" name="lname" id="lname" required></label>
-                <label>Title or Position<input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" title="Only letters, hyphens, and spaces. Minimum 7 characters."></label>
-                <label>Email*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
-                <label>Phone*<input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
-                <label>Organization's Name*<input type="text" name="orgName" id="orgName" required></label>
-                <label>Organization's Description<input type="text" name="orgDescr" id="orgDescr"></label>
+                <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label>Title or Position <input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" title="Only letters, hyphens, and spaces. Minimum 7 characters."></label>
+                <label>Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+                <label>Organization's Name* <input type="text" name="orgName" id="orgName" required></label>
+                <label>Organization's Description <input type="text" name="orgDescr" id="orgDescr"></label>
             </fieldset>
 
             <fieldset>
@@ -71,6 +71,12 @@
                 <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
                 <label><input type="radio" name="membership" value="np">NP Membership</label>
             </fieldset>
+            
+            <input type="hidden" name="timestamp" id="timestamp"> <!-- timestamp -->
+
+            <input type="submit" value="Sign Up">
+
+        </form>
 
             <div class="membershipOp">
                 <figure>
@@ -128,11 +134,6 @@
                 </figure>
             </div>
 
-            <input type="hidden" name="timestamp" id="timestamp"> <!-- timestamp -->
-
-            <input type="submit" value="Sign Up">
-
-        </form>
     </main>
 
     <footer>
