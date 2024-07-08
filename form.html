@@ -44,13 +44,14 @@
     <main>
         <form method="get" action="record.html" class="wf1">
             <fieldset>
-                <legend>Login</legend>
-                <label>Username<input type="text" id="username" name="username" required></label>
-                <label>Password<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and can only be alpha-numeric"></label>
-                <label>Confirm Password<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Must match the first Password field input value."></label>
-                <label>Email<input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+                <legend>Login:</legend>
+                <label>Username:<input type="text" id="username" name="username" required></label>
+                <label>Password:<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Password must be at least 8 characters long and can only be alpha-numeric"></label>
+                <label>Confirm Password:<input type="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="Must match the first Password field input value."></label>
+                <label>Email:<input type="email" name="email" placeholder="someone@byui.edu" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
            
-                <legend>Page Rating</legend>
+                <legend>Page Rating:</legend>
+                <div id="rangevalue">0</div> <!-- Div para mostrar o valor do range -->
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues" oninput="updateRangeValue(this.value)"> <!-- Adicionada função oninput -->
                 <datalist id="rangevalues">
                     <option value="0">0</option>
@@ -76,12 +77,11 @@
         <p class="footer1">&copy; <span id="year"></span> </p>
         <p class="footer2">F Priscilla Santos</p>
         <p class="footer3">Brazil &#x1F1E7;&#x1F1F7;</p>
-        <p class ="footer4">Last Modification: <span id="lastModified"></span></p>
+        <p class="footer4">Last Modification: <span id="lastModified"></span></p>
     </footer>
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/script.js"></script>
-    <script src="formvalidator.js"></script>
-
+    <script src="scripts/formvalidator.js"></script> <!-- Corrigido o caminho para o arquivo formvalidator.js -->
 </body>
 </html>
