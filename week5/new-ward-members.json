@@ -1,0 +1,31 @@
+{
+    "familyName" : "Santos",
+    "oveInDate" : 2018,
+    "numberOfRecords" : 4,
+    "VisitedBishopric" : true,
+    "members" : [
+        {
+        "name" : "Guilherme Santos",
+        "gender" : "male",
+        "birthdate" : "10/26/1989"
+        },
+
+        {
+        "name" : "Eric Santos",
+        "gender" : "male",
+        "birthdate" : "12/06/2020"
+        },
+
+        {
+        "name" : "Priscilla Santos",
+        "gender" : "female",
+        "birthdate" : "09/23/1993"
+        },
+
+        {
+        "name" : "Celina Santos",
+        "gender" : "female",
+        "birthdate" : "05/21/2018"
+        }
+    ]
+}
