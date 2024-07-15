@@ -1,0 +1,107 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"week1/holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"week1/media-query.html",
+            "title":"mQueries"
+          },
+          {
+            "url":"week1/chamber-site-plan.html",
+            "title":"Site Plan"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"week2/bom.html",
+            "title":"BOM"
+          },
+          {
+            "url":"https://codepen.io/Fabiana-Priscilla-Martins/pen/mdYxOMg",
+            "title":"Codepen"
+          },
+          {
+            "url":"week2/designe.html",
+            "title":"Design"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"week3/bom.html",
+            "title":"BOM 2.0"
+          },
+          {
+            "url":"week3/lazyload.html",
+            "title":"Lazy Load"
+          },
+          {
+            "url":"week3/responsive-images.html",
+            "title":"Responsive Images"
+          },
+          {
+            "url":"images/landscape_resized.webp",
+            "title":"Landscape"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/Fabiana-Priscilla-Martins/pen/RwmXXEW",
+            "title":"CodePen Pseudo-class"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/images/exercises.webp",
+            "title":"Combinator Exercises"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/week4/tablebuild.html",
+            "title":"HTML Table"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/week4/form-start/Form-start/index.html",
+            "title":"HTML Form"
+          }
+        ]
+      },
+
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/Fabiana-Priscilla-Martins/pen/qBzdMgp",
+            "title":"CCodePen Pseudo-elements"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/week5/new-ward-members.json",
+            "title":"JSON"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/week5/prophets.html",
+            "title":"Prophets Cards"
+          },
+          {
+            "url":"https://fpriscillasantos.github.io/wdd230/week5/weather.html",
+            "title":"Weather"
+          }
+        ]
+      }
+    ]
+}
+              
+              

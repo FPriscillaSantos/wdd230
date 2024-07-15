@@ -221,3 +221,31 @@ footer p {
     color: black;
 }
 
+.weather {
+    display: block;
+    align-items: center;
+    margin: 1px;
+}
+
+#figcaption {
+    text-transform: capitalize;
+    margin: 1px;
+    font-size: 0.9rem;
+}
+
+#weather-icon{
+    margin: 1px;
+    width: 60px;
+    height: auto;
+}
+
+#current-temp{
+    font-size: 2rem;
+    margin: 1px;
+}
+
+.city {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
