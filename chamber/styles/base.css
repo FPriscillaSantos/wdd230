@@ -404,5 +404,20 @@ fieldset {
     font-size: 0.9em;
 }
 
+/* Directory*/
+
+.menuMembers {
+	margin: .5rem auto;
+    margin-top: 1.5rem;
+	border: .5px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menuMembers button {
+	padding: .5rem;
+	font-weight: 700;
+}
+
 
 
