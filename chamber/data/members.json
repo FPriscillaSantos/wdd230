@@ -5,7 +5,8 @@
         "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo1.webp",
         "address": "João Roma Street 524, St Martin, Ribeirão Preto",
         "tel": "(16) 123 4889",
-        "url": "www.agenio.com.br"
+        "url": "www.agenio.com.br",
+        "membership" : ""
       },
       {
         "member": "Innovatio",
@@ -43,8 +44,8 @@
         "url": "www.jetlane.com"
       },
       {
-        "member": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo7.webp",
-        "imageIcon": "Muvz",
+        "member": "Muvz",
+        "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo7.webp",
         "address": "Digital Way 101, Tech Park, Ribeirão Preto",
         "tel": "(16) 678 9012",
         "url": "www.muvz.com"

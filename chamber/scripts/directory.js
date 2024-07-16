@@ -17,6 +17,8 @@ const displayMembers = (members) => {
         let tel = document.createElement('p');
         let url = document.createElement('a');
 
+        card.classList.add('member-card');
+
         image.setAttribute('src', member.imageIcon || 'default-image.png'); 
         image.setAttribute('alt', member.member);
         name.textContent = member.member;
