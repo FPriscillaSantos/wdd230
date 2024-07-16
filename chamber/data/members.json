@@ -3,7 +3,7 @@
       {
         "member": "Agenio",
         "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo1.webp",
-        "address": "João Roma Street 524, St Martin, Ribeirão Preto",
+        "address": "João Street 524, St Martin, Ribeirão Preto",
         "tel": "(16) 123 4889",
         "url": "www.agenio.com.br",
         "membership" : "Gold Membership"
@@ -27,7 +27,7 @@
       {
         "member": "Zynex",
         "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo4.webp",
-        "address": "Creativity Lane 123, Innovation Valley, Ribeirão Preto",
+        "address": "Creativity 123, Innov Valley, Ribeirão Preto",
         "tel": "(16) 345 6789",
         "url": "www.zynex.com",
         "membership" : "Silver Membership"

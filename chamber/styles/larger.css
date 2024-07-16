@@ -194,9 +194,7 @@ main {
 .menuMembers {
 	text-align: center;
     max-width: 899px;
-    width: 100%;
-    border: solid 1px red;
-    
+    width: 100%;    
 }
 
 #grid, #list {
@@ -217,10 +215,16 @@ main {
     grid-row: 2;
 }
 
-.grid #membersList{
+.grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+}
+
+.grid .member-card{
+    max-width: 250px;
+    width: 100%;
+    height: 300px;
 }
 
 }
