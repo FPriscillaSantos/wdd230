@@ -16,8 +16,10 @@ const displayMembers = (members) => {
         let address = document.createElement('p');
         let tel = document.createElement('p');
         let url = document.createElement('a');
+        let membership = document.createElement('p');
 
         card.classList.add('member-card');
+        membership.classList.add('membership');
 
         image.setAttribute('src', member.imageIcon || 'default-image.png'); 
         image.setAttribute('alt', member.member);
@@ -26,17 +28,35 @@ const displayMembers = (members) => {
         tel.textContent = member.tel;
         url.setAttribute('href', `https://${member.url}`);
         url.textContent = member.url;
+        membership.textContent = member.membership;
 
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(tel);
         card.appendChild(url);
+        card.appendChild(membership);
 
         membersList.appendChild(card);
     });
 }
 
 getMembersList();
+
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+const display = document.querySelector("#membersList");
+
+gridButton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listButton.addEventListener("click", showList);
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+}
 
 
