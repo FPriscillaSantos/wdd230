@@ -367,7 +367,6 @@ fieldset {
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    cursor: pointer;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
     margin: 1rem auto; 
     display: block; 
@@ -411,6 +410,13 @@ fieldset {
     width: 100%;
 }
 
+.selected {
+    background-color: #ddd; }
+
+.button {
+    background-color: #fff; 
+}
+
 #grid, #list {
     justify-content: right;
 	padding: .5rem;
@@ -418,6 +424,7 @@ fieldset {
     margin-top: 3rem;
     margin-bottom: 1rem;    
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
 }
 
 .grid #membersList {
@@ -433,7 +440,6 @@ fieldset {
     width: 300px;
     padding: 1rem;
     border: solid 1px #011863;
-    cursor: pointer;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
     text-align: center;
     margin: auto;
@@ -460,7 +466,6 @@ fieldset {
     height: 100px;
     height: 100%;
     border: solid 1px #011863;
-    cursor: pointer;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
     margin-bottom: .5rem;
 }
