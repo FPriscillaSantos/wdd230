@@ -17,7 +17,7 @@ const displayMembers = (members) => {
         let tel = document.createElement('p');
         let url = document.createElement('a');
 
-        image.setAttribute('src', member.imageIcon || 'default-image.png'); // Use a default image if none is provided
+        image.setAttribute('src', member.imageIcon || 'default-image.png'); 
         image.setAttribute('alt', member.member);
         name.textContent = member.member;
         address.textContent = member.address;
