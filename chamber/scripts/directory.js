@@ -45,18 +45,13 @@ getMembersList();
 
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
-const display = document.querySelector("#membersList");
 
 gridButton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+    membersList.classList.add("grid");
+    membersList.classList.remove("list");
 });
 
-listButton.addEventListener("click", showList);
-
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-}
-
-
+listButton.addEventListener("click", () => {
+    membersList.classList.add("list");
+    membersList.classList.remove("grid");
+});
