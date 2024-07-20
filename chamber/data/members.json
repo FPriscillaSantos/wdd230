@@ -55,6 +55,22 @@
         "tel": "(16) 678 9012",
         "url": "www.muvz.com",
         "membership" : "Bronze Membership"
+      },
+      {
+        "member": "ECCC",
+        "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo8.webp",
+        "address": "Innovation Ave 456, Central, Ribeirão Preto",
+        "tel": "(16) 234 5678",
+        "url": "www.eccc.com",
+        "membership": "NP Membership"
+      },
+      {
+        "member": "Viggo",
+        "imageIcon": "https://fpriscillasantos.github.io/wdd230/chamber/images/logo9.webp",
+        "address": "Future Blvd 202, Tech Valley, Ribeirão Preto",
+        "tel": "(16) 345 6789",
+        "url": "www.viggo.com",
+        "membership": "NP Membership"
       }
     ]
 }
