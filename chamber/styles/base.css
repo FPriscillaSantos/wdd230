@@ -173,23 +173,6 @@ h4, .events p {
     margin: 1.5rem;
 }
 
-.weather {
-    display: grid;
-}
-
-.weather img {
-    grid-column: 1;
-    grid-row: 2;
-    justify-self: right;
-    align-self: center;
-}
-
-.weather p {
-    grid-row: 2;
-    justify-self: left;
-    align-self: center;
-}
-
 .member div {
     background-color: #fff;
     display: flex;
@@ -478,6 +461,77 @@ fieldset {
     margin: 1px;
 }
 
- 
+
+/* weather: */
+
+.weather {
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 499px;
+    width: 100%;
+}
+
+.weather p {
+    padding: 1px;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 499px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#day1, #day2, #day3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: solid 1px #ffd755de;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    max-width: 429px;
+    width: 90%;
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+/* Banner */
+.banner {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none; 
+    border: solid 1px #011863;
+    box-shadow: 2px 4px 8px #011863;
+    position: relative;
+}
+
+.close-banner {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+
 
 

@@ -227,4 +227,37 @@ main {
     height: 300px;
 }
 
+/*weather*/
+
+.weather {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    height: 5rem;
+}
+
+.weather img, .weather p {
+    margin: 1px;
+}
+
+.weather p {
+    padding: 1rem;
+}
+
+#forecast {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#day1, #day2, #day3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding-left: 1px;
+}
 }

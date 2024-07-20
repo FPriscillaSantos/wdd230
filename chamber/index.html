@@ -50,25 +50,38 @@
     </header>
 
     <main>
+        <section id="banner" class="banner">
+            <p>Don't miss our Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.!</p>
+            <button id="close-banner" class="close-banner">&times;</button>
+        </section>
+
         <section class="purpose">
             <h3>Purpose</h3>
-            <h4>Our purpose is improving the local business environment and strengthening communities through advocacy, networking, and campaigning. In addition, create an easy line of communication for business owners to connect with governing bodies.</h4>
-            <h4>In addition to improving local commerce, we aim to offer courses and more training for local professionals. </h4>
+            <h4>Our purpose is improving the local business environment and strengthening communities through advocacy, networking, and campaigning. In addition, create an easy line of communication for business owners to connect with governing <br><br>In addition to improving local commerce, we aim to offer courses and more training for local professionals. <br><br> </h4>
         </section>
         <div class="forLarger">
             <section class="events">
                 <h3>Event</h3>
-                <h4>Update your Governance vision</h4>
-                <p>Master the 4 crucial innovations that will shape business and directly impact Company Boards, at the epicenter of Proactive Governance</p>
+                <h4>Update your Governance Vision!</h4>
+                <p>Master the 4 crucial innovations that will shape business and directly impact Company Boards, at the epicenter of Proactive Governance. In today's rapidly evolving business environment, understanding and leveraging these innovations is essential for forward-thinking leaders. These transformative developments not only redefine industry standards but also set new benchmarks for organizational excellence. Embracing these innovations ensures that your company remains agile, resilient, and competitive. This approach will help drive strategic decision-making, enhance operational efficiency, and foster sustainable growth. Equip your board with the insights needed to navigate these changes effectively and lead with confidence. <br><br>Elevate your governance practices by integrating these key innovations and stay ahead in the dynamic world of business. Investing in proactive governance strategies will position your company for long-term success and adaptability. Stay ahead of the curve and turn challenges into opportunities with a visionary approach.</p>
                 <div>
                     <a href="#" class="knowmore">More Info ...</a>
                 </div>
             </section>
 
-            <section class="weather">
+            <section>
                 <h3>Weather</h3>
-                <img src="images/wether.jpg" alt="weatherImg" width="100">
-                <p>33°C<br>Partly Cloudy<br>Humidity: 35%<br>Wind Chill: N/A</p>
+                <figure class="weather">
+                    <p><strong>Now:</strong></p>
+                    <img id="weather-icon" src="https://fpriscillasantos.github.io/wdd230/images/default-weather.png" alt="Weather icon">
+                    <p id="figcaption">Weather description</p>
+                    <p id="current-temp">Temperature</p>
+                </figure>
+                <div id="forecast">
+                    <div id="day1"></div>
+                    <div id="day2"></div>
+                    <div id="day3"></div>
+                </div>
             </section>
         </div>
 
@@ -94,6 +107,8 @@
     </footer>
 
     <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 
 </body>
 </html>
