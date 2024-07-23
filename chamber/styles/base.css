@@ -153,6 +153,8 @@ section{
     background-color: #fff;
     margin-top: .5rem;
     border-radius: 10px;
+    border: solid 1px #ffd755de;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
     }
 
 h3 {
@@ -186,7 +188,7 @@ h4, .events p {
     width: 100%;
 }
 
-.member-card:hover {
+.directoryPage .member-card:hover {
     transform: scale(0.97); 
     filter: brightness(95%); 
 }
@@ -200,11 +202,6 @@ h4, .events p {
     text-align: center;
     margin-right: 2rem;
     margin-bottom: 1rem;
-}
-
-.posts:hover {
-    transform: scale(0.97); 
-    filter: brightness(70%); 
 }
 
 .posts h4 {
@@ -229,6 +226,11 @@ h4, .events p {
     border-radius: 10px;
     margin-top: 3rem ;
     
+}
+
+#message {
+    border: solid 1px #ffd755de;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
 }
 
 .sidebar p {
@@ -322,6 +324,8 @@ footer img {
 
 form {
     padding-bottom: .5rem;
+    border: solid 1px #ffd755de;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9);
 }
 
 .thanks {
@@ -383,12 +387,14 @@ fieldset {
 
 .membershipOp figure {
     background-color: #fff;
-    margin: .3rem;
+    margin: .2rem;
     padding: .5rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column; 
     align-items: center; 
+    border: solid 1px #ffd755de;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
 }
 
 .membershipOp img {
