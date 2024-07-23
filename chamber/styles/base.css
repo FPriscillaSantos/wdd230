@@ -57,7 +57,9 @@ nav {
 
 nav ul{
     list-style-type: none;
+    width: 400px;
 }
+
 
 nav li a {
     color: #fff;
