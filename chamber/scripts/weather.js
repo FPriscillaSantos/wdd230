@@ -43,7 +43,7 @@ function displayForecast(data) {
     const forecast = data.list.filter(item => item.dt_txt.includes("12:00:00")); 
     for (let i = 0; i < 3; i++) {
         const day = forecast[i];
-        const date = new Date(day.dt_txt).toLocaleDateString(undefined, { weekday: 'long' });
+        const date = new Date(day.dt_txt).toLocaleDateString('en-US', { weekday: 'long' });
         const temp = `${day.main.temp} &deg;C`;
         const iconSrc = `https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`;
         const desc = capitalizeDescription(day.weather[0].description);

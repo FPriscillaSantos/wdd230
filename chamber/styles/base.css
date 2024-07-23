@@ -184,6 +184,10 @@ h4, .events p {
     width: 100%;
 }
 
+.member-card:hover {
+    transform: scale(0.97); 
+    filter: brightness(95%); 
+}
 
 .member li {
     list-style-type: none;
@@ -194,6 +198,11 @@ h4, .events p {
     text-align: center;
     margin-right: 2rem;
     margin-bottom: 1rem;
+}
+
+.posts:hover {
+    transform: scale(0.97); 
+    filter: brightness(70%); 
 }
 
 .posts h4 {

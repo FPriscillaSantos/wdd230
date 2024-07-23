@@ -78,9 +78,13 @@ nav {
     display: flex;
 }
 
+.purpose {
+    margin-top: 2rem;
+}
+
 .events {
     max-width: 650px;
-    margin-right: 1.5rem;
+    margin-right: .5rem;
 }
 
 .weather{
@@ -259,5 +263,7 @@ main {
     text-align: center;
     margin: 10px;
     padding-left: 1px;
+    height: 270px;
 }
+
 }
