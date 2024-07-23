@@ -1,3 +1,9 @@
+// Função para exibir mensagem no elemento com id "message"
+function displayMessage(message) {
+    document.getElementById('message').textContent = message;
+}
+
+// Evento que é disparado quando o documento HTML foi completamente carregado
 document.addEventListener('DOMContentLoaded', () => {
     const lastModified = document.lastModified;
     document.getElementById('lastModified').textContent = lastModified;
@@ -11,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerElement.addEventListener('click', () => {
         navElement.classList.toggle('open');
         hamburgerElement.classList.toggle('open');
-        document.body.classList.toggle('nav-open');
     });
 
     // Verificar se já existe uma data de última visita no localStorage
@@ -42,4 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Definir o timestamp atual no campo oculto
     document.getElementById('timestamp').value = new Date().toISOString();
+
 });
+
